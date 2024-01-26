@@ -1,1 +1,117 @@
-My link in bio
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         body {
+         padding-top: 40px;
+         padding-bottom: 40px;
+         background-color: #004643;
+         display: flex;
+         justify-content: center;
+         }
+         .items {
+         display: flex;
+         flex-direction: column;
+         gap: 30px;
+         max-width: 640px;
+         flex-grow: 1;
+         }
+         .banner {
+         display: flex;
+         justify-content: center;
+         }
+         .banner-image {
+         width: 128px;
+         height: 128px;
+         object-fit: cover;
+         border-radius: 128px;
+         justify-content: center;
+         }
+         .name {
+         color: #fffffe;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         display: flex;
+         justify-content: center;
+         }
+         .social-icons {
+         color: #fffffe;
+         text-decoration: none;
+         display: flex;
+         justify-content: space-around;
+         }
+         .thumbnail {
+         width: 48px;
+         height: 48px;
+         border-radius: 48px;
+         object-fit: cover;
+         }
+         .link {
+         background-color: #f9bc60;
+         display: flex;
+         align-items: center;
+         padding: 5px;
+         }
+         .link a {
+         color: #001e1d;
+         text-decoration: none;
+         text-align: center;
+         flex-grow: 1;
+         }
+         .bio {
+         border: 1px solid #ccc;
+         padding: 10px;
+         margin: 10px;
+         display: flex;
+         justify-content: right;
+         width: 200px;
+         background-color: #f9bc60;
+         }
+         .bio-text {
+         padding: 5px;
+         font-family: 'Courier New', Courier, monospace;
+         font-size: small;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="items">
+         <div class="banner">
+            <img src="/thumbnails/me.jpg" alt="Reza Husain headshot" class="banner-image">
+         </div>
+         <div class="name">
+            Reza Husain
+         </div>
+         <div class="social-icons">
+            <a href="https://www.github.com/rezahusain" target="_blank">
+            <img src="/thumbnails/github.png" alt="Github Logo" class="thumbnail">
+            </a>
+            <a href="https://www.linkedin.com/in/reza-h-247a8820b/" target="_blank">
+            <img src="/thumbnails/linkedin.png" alt="Github Logo" class="thumbnail">
+            </a>
+            <a href="https://dev.to/rezahusain" target="_blank">
+            <img src="/thumbnails/dev.png" alt="Github Logo" class="thumbnail">
+            </a>
+         </div>
+         <div class="link">
+            <img
+               src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png" class = "thumbnail">
+            <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
+            — Paul Graham</a>
+         </div>
+         <div class="link">
+            <img
+               src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg" class="thumbnail">
+            <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
+            Life-Saving Checklist — The New Yorker</a>
+         </div>
+      </div>
+      <div class="bio">
+         <div class="bio-text">
+            <h1 style="color: #001e1d; text-align: center;">About Me</h1>
+            <p1 style="color: #001e1d;"><pre>Hello there!</pre> My name is Reza and this is my personal linktree website! 
+               Hope you enjoy your time here :) 
+               If you need to contact me shoot me an email at <a href="mailto:rezahusain99@gmail.com">rezahusain99@gmail.com</a></p1>
+         </div>
+      </div>
+   </body>
+</html>
